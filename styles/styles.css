@@ -60,7 +60,8 @@ main {
   /* height: 500px; */
   margin: 40px 0px;
 }
-.info-header {
+.info-header,
+.contact-header {
   color: rgb(28, 70, 106);
   font-size: 30px;
   text-transform: uppercase;
@@ -71,7 +72,8 @@ main {
   height: 300px;
   /* width: 100px; */
 }
-.info-body {
+.info-body,
+.contact-body {
   display: flex;
   justify-content: space-around;
   padding: 70px 0px;
@@ -83,4 +85,31 @@ main {
 }
 .info-description ul li {
   margin-top: 10px;
+}
+.contact-container {
+  background-color: aliceblue;
+  margin-top: 150px;
+}
+.contact-image img {
+  height: 300px;
+}
+
+.contact-form input,
+#query {
+  display: block;
+  /* padding: 10px 0px; */
+  height: 50px;
+  width: 300px;
+  margin: 20px 0px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#submit-btn {
+  background-color: rgb(125, 187, 241);
+  border: none;
+  border-radius: 5px;
+}
+#submit-btn:hover {
+  background-color: rgb(69, 147, 215);
 }
